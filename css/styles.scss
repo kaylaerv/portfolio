@@ -94,6 +94,7 @@ button {
             li {
                 flex: 1;
                 padding-bottom: 0;
+                list-style-type: none;
                 a {
                     color: #212121;
                     display: block;
@@ -155,11 +156,19 @@ button {
 //         }
 //     }
 // }
-
+.hero {
+    padding: 48px 0;
+    h2 {
+        font-size: 56px;
+    }
+    p {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+}
 .portfolio {
     .grid {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
         grid-row-gap: 32px;
         .project {
             border-bottom: 1px solid #212121;

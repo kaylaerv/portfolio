@@ -15,3 +15,10 @@ $(".clip-message").on(
       $(this).removeClass("show-hide");
   }
 );
+
+/*************************************
+Truncate project descriptions on the home page
+**************************************/
+$(".project-description").text(function (index, currentText) {
+  return currentText.substr(0, 300) + "...";
+});
