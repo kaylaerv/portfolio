@@ -95,6 +95,7 @@ button {
                 flex: 1;
                 padding-bottom: 0;
                 list-style-type: none;
+                
                 a {
                     color: #212121;
                     display: block;
@@ -104,11 +105,14 @@ button {
                     &:hover {
                         color: darken(#c3cfe2, 40%);
                     }
+                    &.active {
+                        color: darken(#c3cfe2, 40%);
+                    }
                 }
             }
         }
         .name {
-            flex: 2;
+            flex: 3;
             text-align: center;
             margin: 0 0 8px 0;
             display: block;
@@ -173,6 +177,12 @@ button {
         .project {
             border-bottom: 1px solid #212121;
             padding-bottom: 32px;
+            // &:last-of-type {
+            //     border-bottom: none;
+            // }
+            &:last-child {
+                border-bottom: none;
+            }
             a {
                 display: inline-block;
             }
