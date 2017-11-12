@@ -161,13 +161,15 @@ button {
 //     }
 // }
 .hero {
-    padding: 48px 0;
+    padding: 48px 0 80px;
     h2 {
-        font-size: 56px;
+        font-size: 96px;
+        color: darkslateblue;
     }
     p {
-        font-size: 14px;
-        margin-top: -20px;
+        font-size: 24px;
+        margin-top: -28px;
+        color: darkslateblue;
     }
 }
 .portfolio {

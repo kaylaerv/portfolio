@@ -18,7 +18,8 @@ $(".clip-message").on(
 
 /*************************************
 Truncate project descriptions on the home page
+Commented out because need to be able to repeat for other entries, not just the first.
 **************************************/
-$(".project-description").text(function (index, currentText) {
-  return currentText.substr(0, 300) + "...";
-});
+// $(".project-description").text(function (index, currentText) {
+//   return currentText.substr(0, 300) + "...";
+// });
