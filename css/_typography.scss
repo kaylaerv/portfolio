@@ -24,10 +24,14 @@ span {
 }
 li {
     line-height: 1.5;
-    // list-style-type: none;
+    list-style-position: inside;
     padding-bottom: 8px;
-    padding-left: 1em; 
-    text-indent: -.7em;
+}
+.multi-column {
+    column-count: 1;
+    @media screen and (min-width: 480px){
+        column-count: 2;   
+    }
 }
 h1, h2 {
     font-family: 'Playfair Display', serif;
@@ -37,6 +41,11 @@ h2 {
 }
 h3, h4, h5 {
     font-family: 'Muli', sans-serif;    
+}
+h4 {
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 figcaption {
     padding-top: 8px;
