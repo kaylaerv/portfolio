@@ -3,8 +3,8 @@ a {
     color: darken(#c3cfe2, 30%);
     font-family: 'Muli', sans-serif;
     transition: 500ms color;
-    &:focus, 
-    &:hover, 
+    &:focus,
+    &:hover,
     &:active {
         color: darken(#c3cfe2, 50%);
     }
@@ -30,7 +30,7 @@ li {
 .multi-column {
     column-count: 1;
     @media screen and (min-width: 480px){
-        column-count: 2;   
+        column-count: 2;
     }
 }
 h1, h2 {
@@ -40,12 +40,15 @@ h2 {
     font-size: 30px;
 }
 h3, h4, h5 {
-    font-family: 'Muli', sans-serif;    
+    font-family: 'Muli', sans-serif;
 }
 h4 {
-    font-weight: 200;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 2px;
     text-transform: uppercase;
+    color: #9e9e9e;
+    font-size: 14px;
+    padding-top: 4px;
 }
 figcaption {
     padding-top: 8px;
